@@ -1,0 +1,9 @@
+<form (ngSubmit)="onSubmit()" [formGroup]="formGroup">
+    <label for="usuario">Usuario: </label>
+    <input mat-form-field id="usuario" type="text" formControlName="usuario">
+
+    <label for="password">Password: </label>
+    <input mat-form-field id="password" type="password" formControlName="password">
+
+    <input type="submit">
+</form>
